@@ -12,6 +12,9 @@ Dannach habe ich den Fehler korrigiert. (![lintFehlerlos](images/lintFehlerlos.p
 
 Hier sieht man wie ich den SeleniumTest erfolgreich bestanden habe:  (![lintFSeleniumTestSuccessehlerlos](images/SeleniumTestSuccess.png))
 
+Ich habe selber noch einen test command hinzugefügt: (![newSeleniumTestCommand](images/newSeleniumTestCommand.png))
+
+
 
 Desweiteren habe ich die Docker Container gestartet in dem ich das docker-compose gestartet habe und localhost 9000 im browser geöffnet. (![newProjectSonarQube](images/newProjectSonarQube.png))
 
