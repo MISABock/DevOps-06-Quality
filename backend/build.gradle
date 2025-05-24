@@ -32,6 +32,19 @@ test {
     finalizedBy jacocoTestReport // report is always generated after tests run
 }
 
+sonarqube {
+    properties {
+        property "sonar.projectKey", "DevOpsDemoFrontEnd"
+        property "sonar.projectName", "Frontend"
+        property "sonar.sources", "../frontend"
+        property "sonar.language", "js"
+        property "sonar.sourceEncoding", "UTF-8"
+    }
+}
+
+
+
+
 jacocoTestReport {
 	reports {
 		xml.required = true

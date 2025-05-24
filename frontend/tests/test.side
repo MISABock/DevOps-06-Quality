@@ -2,7 +2,7 @@
   "id": "d8e6853c-e6b8-4c38-8f79-e42d0031f4d4",
   "version": "2.0",
   "name": "Test",
-  "url": "http://localhost:3000",
+  "url": "http://192.168.1.19:8088",
   "tests": [{
     "id": "8ee98c89-830f-4bba-9f7d-ecdf703b8ce5",
     "name": "Test",
@@ -221,6 +221,6 @@
     "timeout": 300,
     "tests": ["8ee98c89-830f-4bba-9f7d-ecdf703b8ce5"]
   }],
-  "urls": ["http://localhost:3000/"],
+  "urls": ["http://192.168.1.19:8088/"],
   "plugins": []
 }
